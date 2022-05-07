@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603757982316",
+    "project_id": "postie-4fb47",
+    "storage_bucket": "postie-4fb47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603757982316:android:a3f4ec30c5c711dc679e49",
+        "android_client_info": {
+          "package_name": "com.example.postie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603757982316-bld88fqeb7v3k7v5v41efv958604flrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwyJ-sXdcg3AW-44o-_6bSMimVBHcE2hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603757982316-bld88fqeb7v3k7v5v41efv958604flrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Postie">
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
+            android:name=".Registration.RegisterActivity"
+            android:exported="false"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true"
@@ -24,7 +24,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

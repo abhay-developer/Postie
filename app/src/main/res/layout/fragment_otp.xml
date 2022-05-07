@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration.ForgotPasswordFragment">
+
+    <ImageView
+        android:id="@+id/smsIconOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/msg"
+        android:src="@drawable/msg_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/verifyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/Verification_code_sent"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/smsIconOTP"
+        app:layout_constraintStart_toStartOf="@+id/smsIconOTP"
+        app:layout_constraintTop_toBottomOf="@+id/smsIconOTP" />
+
+    <EditText
+        android:id="@+id/otpEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/textbox"
+        android:elevation="3dp"
+        android:ems="10"
+        android:hint="@string/enter_otp"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:padding="14dp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyText" />
+
+    <ProgressBar
+        android:id="@+id/otpProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/verifyBtn"
+        app:layout_constraintEnd_toEndOf="@+id/otpEditText"
+        app:layout_constraintStart_toStartOf="@+id/otpEditText"
+        app:layout_constraintTop_toBottomOf="@+id/resendBtn"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/btn"
+        android:stateListAnimator="@null"
+        android:text="@string/verify"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/otpEditText"
+        app:layout_constraintStart_toStartOf="@+id/otpEditText" />
+
+    <Button
+        android:id="@+id/resendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/resend"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/white"
+        android:enabled="false"
+        android:alpha="0.5"
+        app:layout_constraintEnd_toEndOf="@+id/otpEditText"
+        app:layout_constraintStart_toStartOf="@+id/otpEditText"
+        app:layout_constraintTop_toBottomOf="@+id/otpEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Postie</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alt_logo">Postie</string>
+    <string name="email_or_phone">Email or Phone</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_create_account">New User? Create Account!</string>
+    <string name="login">Log In</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="already_have_an_account">Already have an Account? Sign In!</string>
+    <string name="create_account">Create Account</string>
+    <string name="mail">"mail "</string>
+    <string name="registered_email">Registered Email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="msg">Message</string>
+    <string name="Verification_code_sent">Verification code has been sent to +9170******08</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="confirm_Password">Confirm Password</string>
+    <string name="resend">Resend</string>
 </resources>
